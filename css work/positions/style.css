@@ -11,4 +11,34 @@ body{
     top: 40px;
 }
 
+.block2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: -1;
+}
+
+.parent{
+    position: relative;
+    background-color: lightgray;
+    height: 200px;
+    z-index: 0;
+}
+
+.fixed{
+    background-color: darkviolet;
+    position: fixed;
+    padding: 10px;
+    top: 40px;
+    z-index: 20;
+}
+
+.sticky{
+    background-color: darkcyan;
+    padding: 60px 20px;
+    position: sticky;
+    top: 20px;
+    
+}
  

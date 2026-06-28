@@ -23,4 +23,34 @@ top gets priority
 absolute
 
 
+.block{
+    position: absolute;
+    width:200px;
+    /* height: 100px; */
+    background-color: crimson;
+    top: 40px;
+    right: 40px;
+    bottom: 40px;
+}
+
+ height will streatch when top and bottom size is given in absolute and in fixed and fixed will take parent html it will not take relative div as parent
+
+if a div relative and absolute div absolute div will come out of the flow so parent div will be hoeght 0 remember the important
+
+if parent does not have z index the child will go behind think html is parent if zindex is in negative value
+
+stacking contect can be created by opacity if value is less than 1
+
+isolation: isolate will also create stacking context
+
+
+fixed
+
+it will work on viewport no parent and same as aboslute it will strect if bottom and top value is given
+and fixed z index should be greater than any div if not other div will go up on fixed div
+
+
+sticky
+
+sticky also have z-index and its feature is it not come out of the flow stick to same loaction and when bottom is 20px it will stay same place when the page scroll then bottom 20px is executed
 
